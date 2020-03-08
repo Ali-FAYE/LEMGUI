@@ -1,0 +1,675 @@
+* {
+
+    rembourrage: 0;
+    marge: 0;
+}
+
+corps {
+    overflow-x: caché;
+    famille de polices: 'Open Sans', sans-serif;
+    rendu de texte: optimise la lisibilité! important;
+    -webkit-font-smoothing: anti-crénelage! important;
+    
+}
+
+li {
+
+    style liste: aucun;
+    affichage: bloc en ligne
+}
+
+une {
+
+    décoration de texte: aucune;
+    transition: tous les 500 ms avec facilité;
+}
+
+a: survoler,
+a: actif {
+
+    décoration de texte: aucune;
+}
+
+h1,
+h2,
+h4 {
+   / * famille de polices: 'PT Sans Narrow', Arial, sans-serif;
+    transformation de texte: majuscule;
+    poids de la police: 700; * /
+    famille de polices: "Abril Fatface", cursive;
+    poids de police: 600;
+    couleur: # 212529;
+}
+
+p {
+    taille de police: 15px;
+    hauteur de ligne: 21 px;
+}
+
+.btn {
+
+    transition: tous les 300 ms avec facilité;
+    poids de la police: 500! important;
+    transformation de texte: majuscule;
+}
+
+.btn: hover {
+
+    couleur de fond: rgb (255, 209, 72)! important;
+    couleur: # 3c3c3c! important;
+    border: 1px solid #fff! important;
+}
+
+.bg-primary {
+    couleur de fond: rgb (255, 209, 72)! important;
+}
+
+.text-primary {
+    couleur: rgb (255, 209, 72)! important;
+}
+
+.btn-primary {
+    couleur: rgb (17, 17, 17)! important;
+    couleur de fond: rgb (255, 209, 72);
+    transformation de texte: aucune;
+    couleur de la bordure: rgb (255, 209, 72);
+}
+/*LA NAVIGATION*/
+
+
+.navbar {
+
+    couleur de fond: # 222222! important;
+    transformation de texte: capitaliser;
+    famille de polices: «PT Sans Narrow», Arial, sans-serif;
+    poids de la police: 700;
+}
+.navbar ul .btn-nav-don {
+    position: relative; haut: 10px;
+
+}
+
+.navbar ul a {
+
+    couleur: #fff! important;
+    opacité: 0,7;
+    taille de police: 1.6rem;
+}
+
+.navbar a: hover {
+
+    opacité: 1;
+    couleur de fond: # 111111! important;
+}
+
+
+.navbar a: hover {
+
+    opacité: 1;
+    couleur de fond: # 111111! important;
+}
+
+
+
+/*ENTÊTE*/
+
+.entête {
+
+    hauteur: 600px;
+    largeur: 100%;
+    rembourrage: 30px 0 30px;
+    margin-top: 50px;
+    background-image: url (../ images / bg3.jpg);
+    position de fond: centre centre;
+    background-repeat: pas de répétition;
+    taille du fond: couverture;
+    couleur: #fff;
+}
+.conduire {
+    taille de police: 2.2rem;
+    poids de la police: 400;
+}
+
+.header img {
+    
+    hauteur: 350px;
+    largeur: 450 px;
+    marge: 70px 0 0 40px;
+}
+
+.header h1 {
+    
+    taille de police: 40px;
+    poids de la police: 700;
+    rembourrage-dessus: 30px;
+    couleur: #fff;
+}
+
+.header h1,
+.header p,
+Bouton en-tête {
+    
+    margin-top: 20 pixels;
+}
+
+.header .btn {
+    
+    border-radius: 0;
+    marge: 40px 20px;
+    position: absolue;
+    haut: 120px;
+}
+
+
+
+@media (largeur maximale: 768 pixels) {
+
+    .entête {
+        
+        rembourrage: 30px;
+        hauteur: 750px;
+    }
+    
+    .header img {
+        
+        largeur: 90%;
+        hauteur: 300px;
+        marge: 20px 0 0 20px;
+    }
+
+    .header .btn {
+
+        taille de police: 10px;
+        marge gauche: 20 pixels;
+    }
+
+    .header h1 {
+
+        taille de police: 20px;
+    }
+
+    .header p {
+
+        taille de police: 10px;
+    }
+
+    .navbar ul a {
+        taille de police: 1rem;
+    }
+
+
+
+}
+/*Actions*/
+
+
+.action-card {
+    bordure droite: 1px rgba solide (0, 0, 0, 0,125);
+    couleur: # 111111! important;
+    hauteur: 180px;
+    position: relative;
+    en haut: -85px;
+    rembourrage: 10px;
+
+}
+
+.action-card-body h4 {
+    famille de polices: "Abril Fatface", cursive;
+    poids de police: 600;
+
+}
+.action-card-body {
+    rembourrage à gauche: 35 pixels;
+    position: relative;
+    en haut: -37px;
+
+}
+
+@media (largeur maximale: 576 pixels) {
+    .action-card-body p {
+        affichage: aucun;
+    }
+
+    .action-card {
+        hauteur: 60px! important;
+        position: relative! importante;
+        haut: 5px! important;
+        rembourrage: 25px! important
+
+    }
+    .actions-group {
+        margin-top: 10 pixels;
+    }
+
+
+
+    .action-card-body h4 {
+        poids de la police: 800;
+    
+    }
+
+
+ }
+
+/*PRESTATIONS DE SERVICE*/
+
+.title :: after {
+    contenu: "";
+    bloc de visualisation;
+    couleur de fond: rgb (255, 209, 72);
+    hauteur: 0,2rem;
+    largeur: 5.750rem;
+    marge: 1,25rem auto;
+}
+.pannel-title {
+    marge en bas: 1rem;
+
+}
+.pannel-subtitle {
+    margin-top: -0,375rem;
+    marge en bas: 2px;
+    poids de police: 600;
+    famille de polices: "Abril Fatface", cursive;
+}
+.pannel-title a {
+    couleur: # 212529! important;
+    taille de police: 1.5rem;
+    décoration de texte: aucune;
+}
+ .panel {
+    bordure: 1px rgba solide (0, 0, 0, 0,125);
+
+}
+ .panel .panel-head {
+   rembourrage: 0px;
+}
+ .panel .panel-head img {
+    largeur: 100%;
+}
+
+.panel-body .progress {
+    marge en bas: 2px;
+    taille de police: 1.2rem;
+    poids de la police: 500;
+}
+.panel-body {
+    alignement du texte: gauche;
+}
+
+@media (largeur maximale: 576 pixels) {
+    .pannel-title a {
+        taille de police: 2rem;
+    }
+    .prestations de service {
+        margin-top: 0px! important;
+    }
+
+}
+
+.prestations de service {
+    margin-top: -120px;
+    rembourrage: 80px 0 20px;
+    alignement du texte: centre;
+}
+
+
+
+.services p {
+    couleur: # 212529;
+    taille de police: 14px;
+}
+
+/ *
+.services i {
+    
+    hauteur: 80px;
+    largeur: 80px;
+    taille de police: 30px;
+    rembourrage: 25px 20px;
+    rayon-frontière: 50%;
+    couleur de fond: # 6699cc;
+    couleur: #fff;
+}
+* /
+
+@media (largeur maximale: 768 pixels) {
+    
+    .prestations de service {
+        
+        rembourrage: 30 30 0 30 px;
+    }
+}
+
+/*Nouvelles*/
+.nouvelles{
+    alignement du texte: centre;
+}
+
+.news .panel .news-1 {
+   hauteur: 450px;
+ }
+ .news .panel .news-1 img {
+    hauteur: 100%;
+  }
+ .news .pannel-title a {
+    taille de police: 1.9rem! important;
+ }
+
+ .news .panel .news-1-2 p {
+    taille de police: hériter;
+    hauteur de ligne: 1,6;
+    marge en bas: 1rem;
+    rendu de texte: OptimizeLegibility;
+ }
+/ * Fin des nouvelles * /
+
+
+
+
+
+/ * PRIX * /
+
+.pricing {
+    
+    rembourrage: 50px 0 80px;
+    alignement du texte: centre;
+    couleur de fond: # 3399ff;
+}
+
+. prix h2,
+.picing p {
+    
+    couleur: #fff;
+}
+
+.picing p {
+    
+    rembourrage-bas: 40px;
+}
+
+.prix .packages {
+    
+    rembourrage: 30px;
+    bordure: 1px solid #ccc;
+    couleur de fond: #fff;
+    rayon-frontière: 5px;
+    margin-top: 30 pixels;
+}
+
+
+.packages li {
+    
+    bloc de visualisation;
+    rembourrage: 5px;
+}
+
+.packages h4,
+.packages h1,
+.packages b {
+    
+    couleur: # 4c4c4c;
+}
+
+.packages p,
+.packages li {
+    
+    couleur: # 737373;
+}
+
+Bouton .packages {
+    
+    margin-top: 10 pixels;
+}
+
+
+
+@media (largeur maximale: 768 pixels) {
+    
+    .pricing {
+        
+        rembourrage: 30px;
+    }
+    
+    .paquets {
+        
+        largeur: 80%;
+        marge gauche: 25px;
+    }
+}
+
+
+/*ÉQUIPE*/
+
+.team {
+    
+    rembourrage: 0px 0 80px;
+    alignement du texte: centre;
+}
+
+.équipe b,
+.team h2,
+.team h4 {
+    
+    marge: 20px 0 20px;
+    couleur: # 4c4c4c;
+}
+
+
+.team p {
+    
+    couleur: # 737373;
+}
+
+.team img {
+    
+    hauteur: 150px;
+    largeur: 150 px;
+    margin-top: 80px;
+}
+
+
+.team i {
+    
+    hauteur: 30 px;
+    largeur: 30 px;
+    rembourrage: 5px;
+    taille de police: 17px;
+    rayon-frontière: 50%;
+    couleur de fond: # a0db8e;
+    couleur: #fff;
+}
+
+.team a: hover i {
+    
+    couleur de fond: # 709963;
+}
+
+
+/ * CLINTS * /
+
+.clients {
+    
+    rembourrage: 50px 0 80px;
+    couleur de fond: # 3399ff;
+    alignement du texte: centre;
+    couleur: #fff;
+}
+
+.client h2 {
+    
+    couleur: # 5e5e5e;
+}
+
+.clients p {
+    
+    rembourrage-bas: 40px;
+}
+
+.clients img {
+    
+    largeur: 200 px;
+    opacité: 0,6;
+    curseur: pointeur;
+    marge: 40px 0;
+    transition: tous les 500 ms avec facilité;
+}
+
+
+.clients li: hover img {
+    
+    opacité: 1;
+}
+
+
+/*CONTACT*/
+
+.contact {
+    
+    rembourrage: 50px 0 80px;
+    alignement du texte: centre;
+}
+
+.contact p {
+    
+    rembourrage en bas: 80px;
+    couleur: # 737373;
+}
+
+.contact h2 {
+    
+    couleur: # 4c4c4c;
+    marge: 20px 0 20px;
+}
+
+.contact .input-group {
+    
+    marge en bas: 25 px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0! important;
+}
+
+.contact span {
+    
+    border-radius: 0! important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    largeur: 100%;
+    taille de police: 15px;
+    couleur de fond: # f08080;
+    couleur: #fff;
+}
+
+.contact .btn: hover {
+    
+    couleur de fond: # a85959! important;
+    couleur: #fff! important;
+}
+
+
+/*BAS DE PAGE*/
+
+.bas de page {
+    
+    rembourrage: 30px;
+    couleur: #cccccc;
+    couleur de fond: # 222222;
+}
+
+
+.footer .social {
+    
+    taille de police: 20px;
+    hauteur: 30 px;
+    largeur: 30 px;
+    alignement du texte: centre;
+    rembourrage: 5px;
+    bordure: 1px solid #cccccc;
+    marge en bas: 10 px;
+    marge droite: 5px;
+}
+
+
+entrée .footer {
+    
+    hauteur: 40px;
+    largeur: 160px;
+    rembourrage: 5px;
+    frontière: aucune;
+    couleur de fond: #cccccc;
+    couleur: # 000;
+}
+
+.footer .btn {
+    
+    rembourrage: 10px 5px 10px;
+    marge: -3px 0 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
